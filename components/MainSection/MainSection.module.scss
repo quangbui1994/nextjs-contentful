@@ -1,0 +1,6 @@
+.MainSection {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+    margin-top: 8rem;
+    gap: 2.2em;
+}

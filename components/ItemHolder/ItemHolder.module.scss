@@ -1,0 +1,21 @@
+.ItemHolder {
+    text-decoration: none;
+    p {
+        display: inline-block;
+        color: #111;
+        font-size: 1.4rem;
+        margin-top: .6rem;
+    }
+
+    img {
+        transition: all .2s ease;
+        filter: blur(.5px);
+    }
+
+    &:hover {
+        img {
+            transform: scale(1.1);
+            filter: none;
+        }
+    }
+}

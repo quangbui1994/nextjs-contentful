@@ -1,0 +1,26 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+*,
+*::after,
+*::before {
+    box-sizing: inherit;
+}
+
+body {
+    font-family: anonymous-pro, monospace;
+    padding: 75px;
+    padding-bottom: 0;
+    max-width: 135em;
+    margin: 0 auto;
+    height: auto;
+    position: relative;
+    min-height: 100vh;
+}
+
+html {
+    box-sizing: border-box;
+    font-size: 62.5%;
+}
