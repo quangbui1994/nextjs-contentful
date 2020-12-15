@@ -22,7 +22,7 @@
     "next-env.d.ts",
     "**/*.ts",
     "**/*.tsx"
-, "components/Gallery/Gallery.js"  ],
+, "components/Gallery/Gallery.js", "components/ItemHolder/ItemHolder.js"  ],
   "exclude": [
     "node_modules"
   ]
