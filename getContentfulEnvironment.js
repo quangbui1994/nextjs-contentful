@@ -2,10 +2,10 @@ const contentfulManagement = require('contentful-management')
  
 module.exports = function() {
     const contentfulClient = contentfulManagement.createClient({
-        accessToken: 'CFPAT-p9JVfI55-oGGshr1fPosorGWhKMFSloevEEbhItuu-E'
+        accessToken: process.env.NEXT_CONTENTFUL_MANAGEMENT_ACCESS_TOKEN
     });
  
     return contentfulClient
-    .getSpace('9avvg8tgfdk2')
+    .getSpace(process.env.NEXT_CONTENTFUL_SPACE_ID)
     .then(space => space.getEnvironment('master-2020-12-12'))
 }
