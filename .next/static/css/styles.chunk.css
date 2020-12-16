@@ -111,26 +111,6 @@ html {
     font-size: 1.2rem;
     color: rgba(17, 17, 17, 0.568); }
 
-.QPmnwGNBWwqLWwojkxQi0 {
-  text-decoration: none; }
-  .QPmnwGNBWwqLWwojkxQi0 p {
-    display: inline-block;
-    color: #111;
-    font-size: 1.4rem;
-    margin-top: .6rem; }
-  .QPmnwGNBWwqLWwojkxQi0 img {
-    transition: all .2s ease;
-    filter: blur(0.5px); }
-  .QPmnwGNBWwqLWwojkxQi0:hover img {
-    transform: scale(1.1);
-    filter: none; }
-
-._2DZl7uXyKO9h3wati3hym {
-  display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
-  margin-top: 8rem;
-  gap: 2.2em; }
-
 ._2oUuUdcGmLgdcAM30YGHNR {
   display: flex;
   margin-top: 10rem;

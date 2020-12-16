@@ -1,14 +1,9 @@
 import styles from './ItemHolder.module.scss';
 import Image from 'next/image';
-import { IItem } from '../../src/schema/generated/contentful';
 import Link from 'next/link';
 import { useRouter } from 'next/router';
 
-interface PropsPage {
-    item: IItem
-}
-
-const ItemHolder = ({ item }: PropsPage) => {
+const ItemHolder = ({ item }) => {
     const { productName, productImage } = item.fields;
     const router = useRouter();
     return (
